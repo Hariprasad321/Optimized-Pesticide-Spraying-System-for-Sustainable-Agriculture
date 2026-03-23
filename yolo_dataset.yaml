@@ -1,0 +1,7 @@
+# AgriSprayAI Pest Detection Dataset
+path: yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 12
+names: ['ants', 'bees', 'beetle', 'catterpillar', 'earthworms', 'earwig', 'grasshopper', 'moth', 'slug', 'snail', 'wasp', 'weevil']

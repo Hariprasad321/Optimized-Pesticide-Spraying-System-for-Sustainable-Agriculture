@@ -1,0 +1,47 @@
+{
+  "models": {
+    "yolov8": {
+      "path": "models/yolov8_baseline/weights/best.pt",
+      "type": "detection",
+      "classes": [
+        "ants",
+        "bees",
+        "beetle",
+        "caterpillar",
+        "earthworms",
+        "earwig",
+        "grasshopper",
+        "moth",
+        "slug",
+        "snail",
+        "wasp",
+        "weevil"
+      ],
+      "confidence_threshold": 0.5,
+      "iou_threshold": 0.45
+    },
+    "fusion": {
+      "path": "models/fusion_model.pt",
+      "type": "multimodal_fusion",
+      "input_dimensions": {
+        "vision": 1024,
+        "text": 384
+      },
+      "output_classes": 12
+    },
+    "segmentation": {
+      "path": "models/segmentation_best.pt",
+      "type": "segmentation",
+      "classes": 12,
+      "input_size": [
+        640,
+        640
+      ]
+    }
+  },
+  "download_info": {
+    "yolov8": "Downloaded from Ultralytics YOLOv8",
+    "fusion": "Custom fusion model for multimodal processing",
+    "segmentation": "Custom segmentation model for instance masks"
+  }
+}
