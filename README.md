@@ -26,9 +26,9 @@ Go to: http://localhost:8000
 ##  Key Features
 
 ### **Dual Input Processing**
-- **📸 Image Analysis**: YOLO-powered pest detection in field photos
-- **💬 Text Analysis**: Natural language processing of user descriptions
-- **🔄 Combined Intelligence**: Merges both inputs for higher accuracy
+- ** Image Analysis**: YOLO-powered pest detection in field photos
+- ** Text Analysis**: Natural language processing of user descriptions
+- ** Combined Intelligence**: Merges both inputs for higher accuracy
 
 ### **Comprehensive Analysis**
 - **Pest Identification**: Detects aphids, caterpillars, beetles, moths, wasps, etc.
