@@ -93,7 +93,7 @@ AgriSprayAI/
 - Calculates exact quantities needed
 - Provides cost estimates and timing
 
-## 📝 Example Usage
+##  Example Usage
 
 ### **Input:**
 - **Image**: Photo of tomato plants with holes in leaves
@@ -120,8 +120,8 @@ AgriSprayAI/
  **Comprehensive Results**: Detailed pest detection and recommendations  
  **Smart Recommendations**: Pest-specific and symptom-based advice  
  **Cost Estimation**: Detailed spraying plans and costs  
-✅ **User-Friendly Interface**: Modern, intuitive web interface  
-✅ **High Accuracy**: Combined analysis for better results  
-✅ **Real-time Processing**: Fast analysis and response  
+ **User-Friendly Interface**: Modern, intuitive web interface  
+ **High Accuracy**: Combined analysis for better results  
+ **Real-time Processing**: Fast analysis and response  
 
 **Perfect for agricultural professionals, farmers, and researchers!**
