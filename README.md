@@ -1,8 +1,8 @@
-# 🌾 AgriSprayAI - AI Pest Detection & Analysis
+#  AgriSprayAI - AI Pest Detection & Analysis
 
 An intelligent system that combines **image analysis** and **user descriptions** to provide comprehensive pest detection and spraying optimization.
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -23,7 +23,7 @@ Go to: http://localhost:8000
 - **Get comprehensive analysis** combining both inputs
 - **Receive detailed recommendations** and spraying plans
 
-## 🎯 Key Features
+##  Key Features
 
 ### **Dual Input Processing**
 - **📸 Image Analysis**: YOLO-powered pest detection in field photos
@@ -48,7 +48,7 @@ Go to: http://localhost:8000
 - **Cost Estimation**: Provides detailed cost breakdowns
 - **Timing Guidance**: Recommends optimal application times
 
-## 📁 Project Structure
+##  Project Structure
 ```
 AgriSprayAI/
 ├── app.py              # FastAPI backend with dual input processing
@@ -60,14 +60,14 @@ AgriSprayAI/
     └── best.pt        # YOLO model (optional)
 ```
 
-## 🔧 Technical Details
+##  Technical Details
 - **Backend**: FastAPI with image + text processing
 - **Frontend**: Modern HTML/CSS/JavaScript interface
 - **ML Model**: YOLOv8 for pest detection
 - **NLP**: Keyword-based text analysis
 - **Port**: 8000
 
-## 🎯 How It Works
+##  How It Works
 
 ### **1. Image Processing**
 - Uploads field images
@@ -109,17 +109,17 @@ AgriSprayAI/
   - Immediate treatment required
 - **Spraying Plan**: 150ml pesticide, $45 total cost, apply early morning
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 - **Port 8000 in use**: Change port in `start.py`
 - **Model not found**: System will use mock data automatically
 - **Dependencies issues**: Use `pip install -r requirements.txt --upgrade`
 
-## 🎯 Success Criteria - ALL MET
+##  Success Criteria - ALL MET
 
-✅ **Dual Input Processing**: Image + Text analysis  
-✅ **Comprehensive Results**: Detailed pest detection and recommendations  
-✅ **Smart Recommendations**: Pest-specific and symptom-based advice  
-✅ **Cost Estimation**: Detailed spraying plans and costs  
+ **Dual Input Processing**: Image + Text analysis  
+ **Comprehensive Results**: Detailed pest detection and recommendations  
+ **Smart Recommendations**: Pest-specific and symptom-based advice  
+ **Cost Estimation**: Detailed spraying plans and costs  
 ✅ **User-Friendly Interface**: Modern, intuitive web interface  
 ✅ **High Accuracy**: Combined analysis for better results  
 ✅ **Real-time Processing**: Fast analysis and response  
